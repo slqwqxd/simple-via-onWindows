@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="687474703a2f2f766961796f6f2e636f6d2f656e2f696d616765732f6c6f676f2e706e67.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1671-prerelease" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="687474703a2f2f766961796f6f2e636f6d2f656e2f696d616765732f6c6f676f2e706e67.png" />
+  </ItemGroup>
+
+</Project>
